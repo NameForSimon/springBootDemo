@@ -15,6 +15,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -33,6 +34,8 @@ public class HelloController {
 	}
 	@RequestMapping("/helloworld2")
 	public String hello2() {
+		Logger log = Logger.getLogger(this.getClass());
+		log.info("hello2成功");
 		return "select";
 	}
 	@RequestMapping("/helloworld3")
