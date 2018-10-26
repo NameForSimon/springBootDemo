@@ -17,6 +17,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -45,6 +46,7 @@ public class HelloController {
 	}
 	
 	@RequestMapping("/testjson")
+	@CrossOrigin(origins="http://localhost:8088")//使用 Sublime Text 的插件启动html测试，用controller跳转不行，没有8088端口，只能直接启动html读取测试，加了这解释可以在8088端口读取这个html，一般前端ajax使用，后端无关
 	@ResponseBody
 	public Wndz test() {
 		Wndz wndz = new Wndz();
@@ -58,6 +60,16 @@ public class HelloController {
 	@RequestMapping("/helloworld4")
 	public String hello4() {
 		return "upload";
+	}
+	
+	@RequestMapping("/helloworld5")
+	public String hello5() {
+		return "corstest";
+	}
+	
+	@RequestMapping("/helloworld6")
+	public String hello6() {
+		return "webSockTest";
 	}
 	
 	@RequestMapping("/upload")
