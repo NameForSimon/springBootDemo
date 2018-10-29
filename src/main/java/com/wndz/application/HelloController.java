@@ -18,15 +18,24 @@ import javax.servlet.http.HttpServletResponse;
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.wndz.bean.Wndz;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiImplicitParam;
+import io.swagger.annotations.ApiOperation;
 
-@Controller
+
+@Api(value = "Helloworld测试", tags = { "测试接口" })
+@RestController
 public class HelloController {
 	@RequestMapping("/helloworld")
 	public String hello() {
@@ -46,6 +55,8 @@ public class HelloController {
 	}
 	
 	@RequestMapping("/testjson")
+	@ApiOperation("获取用户信息")
+	@ApiImplicitParam(name = "name", value = "用户名", dataType = "string", paramType = "query")
 	@CrossOrigin(origins="http://localhost:8088")//使用 Sublime Text 的插件启动html测试，用controller跳转不行，没有8088端口，只能直接启动html读取测试，加了这解释可以在8088端口读取这个html，一般前端ajax使用，后端无关
 	@ResponseBody
 	public Wndz test() {
@@ -144,4 +155,15 @@ public class HelloController {
     }
     return null;
 }
+	
+	
+	@ApiOperation("获取用户信息")
+	@ApiImplicitParam(name = "name", value = "用户名", dataType = "String", paramType = "query")
+	@GetMapping("/pub/{name}")
+	@ResponseBody
+	public Wndz pub(@PathVariable("name") String name ) {
+		Wndz wndz = new Wndz();
+		wndz.name=name;
+		return wndz;
+	}
 }
