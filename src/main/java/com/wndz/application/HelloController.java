@@ -16,6 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,6 +29,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.wndz.bean.Wndz;
+import com.wndz.mapper.WndzMapper;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
@@ -37,6 +39,9 @@ import io.swagger.annotations.ApiOperation;
 @Api(value = "Helloworld测试", tags = { "测试接口" })
 @RestController
 public class HelloController {
+	@Autowired
+	private WndzMapper wndzMapper;
+	
 	@RequestMapping("/helloworld")
 	public String hello() {
 		//不能写返回的文字了，因为配置文件下配置了返回templates目录下的html文件
@@ -81,6 +86,17 @@ public class HelloController {
 	@RequestMapping("/helloworld6")
 	public String hello6() {
 		return "webSockTest";
+	}
+	
+	@RequestMapping("/helloworld7")
+	public String hello7() {
+		Wndz wndz = new Wndz();
+		wndz.wid=2;
+		wndz.name="百度搜索";
+		wndz.url="www.baidu.com";
+		wndz.date=new Date();
+		wndzMapper.insert(wndz);
+		return "success";
 	}
 	
 	@RequestMapping("/upload")
@@ -166,4 +182,6 @@ public class HelloController {
 		wndz.name=name;
 		return wndz;
 	}
+	
+	
 }
