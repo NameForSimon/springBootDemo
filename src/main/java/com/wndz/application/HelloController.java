@@ -22,10 +22,8 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.wndz.bean.Wndz;
@@ -37,14 +35,14 @@ import io.swagger.annotations.ApiOperation;
 
 
 @Api(value = "Helloworld测试", tags = { "测试接口" })
-@RestController
+@Controller
 public class HelloController {
 	@Autowired
 	private WndzMapper wndzMapper;
 	
 	@RequestMapping("/helloworld")
 	public String hello() {
-		//不能写返回的文字了，因为配置文件下配置了返回templates目录下的html文件
+		//Controller不能写返回的文字了，因为配置文件下配置了返回templates目录下的html文件，RestController才能写返回的文字
 		return "wndz";
 	}
 	@RequestMapping("/helloworld2")
