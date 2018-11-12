@@ -43,7 +43,7 @@ public class HelloController {
 	@RequestMapping("/helloworld")
 	public String hello() {
 		//Controller不能写返回的文字了，因为配置文件下配置了返回templates目录下的html文件，RestController才能写返回的文字
-		return "wndz";
+		return "tree";
 	}
 	@RequestMapping("/helloworld2")
 	public String hello2() {

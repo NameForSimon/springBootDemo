@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>bootstrap-treeview.js 测试</title>
+
+<link rel='stylesheet' href='bootstrap.min.css'/>
+
+<!-- your tests, any and all to run with the given fixtures below -->
+
+</head>
+
+<body>
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-sm-4">
+
+      <h2>默认</h2>
+
+      <div id="treeview1" class=""></div>
+
+    </div>
+
+    <div class="col-sm-4">
+
+      <h2>自定义图标</h2>
+
+      <div id="treeview2" class=""></div>
+
+    </div>
+
+    <div class="col-sm-4">
+
+      <h2>丰富多彩</h2>
+
+      <div id="treeview3" class=""></div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<script src='jquery-3.3.1.min.js'></script>
+
+<script src='bootstrap-treeview.js'></script>
+
+<script type="text/javascript">
+
+  $(function() {
+
+        var defaultData = [
+
+          {
+
+            text: 'Parent 1',
+
+            href: '#parent1',
+
+            tags: ['4'],
+
+            nodes: [
+
+              {
+
+                text: 'Child 1',
+
+                href: '#child1',
+
+                tags: ['2'],
+
+                nodes: [
+
+                  {
+
+                    text: 'Grandchild 1',
+
+                    href: '#grandchild1',
+
+                    tags: ['0']
+
+                  },
+
+                  {
+
+                    text: 'Grandchild 2',
+
+                    href: '#grandchild2',
+
+                    tags: ['0']
+
+                  }
+
+                ]
+
+              },
+
+              {
+
+                text: 'Child 2',
+
+                href: '#child2',
+
+                tags: ['0']
+
+              }
+
+            ]
+
+          },
+
+          {
+
+            text: 'Parent 2',
+
+            href: '#parent2',
+
+            tags: ['0']
+
+          },
+
+          {
+
+            text: 'Parent 3',
+
+            href: '#parent3',
+
+             tags: ['0']
+
+          },
+
+          {
+
+            text: 'Parent 4',
+
+            href: '#parent4',
+
+            tags: ['0']
+
+          },
+
+          {
+
+            text: 'Parent 5',
+
+            href: '#parent5'  ,
+
+            tags: ['0']
+
+          }
+
+        ];
+
+        $('#treeview1').treeview({
+
+ backColor: "#FFFFFF",
+
+          color: "#428bca",
+
+          enableLinks: true,
+
+          data: defaultData
+
+        });
+
+$('#treeview2').treeview({
+
+          color: "#428bca",
+
+          expandIcon: 'glyphicon glyphicon-chevron-right',
+
+          collapseIcon: 'glyphicon glyphicon-chevron-down',
+
+          nodeIcon: 'glyphicon glyphicon-bookmark',
+
+          data: defaultData
+
+        });
+
+$('#treeview3').treeview({
+
+          expandIcon: "glyphicon glyphicon-stop",
+
+          collapseIcon: "glyphicon glyphicon-unchecked",
+
+          nodeIcon: "glyphicon glyphicon-user",
+
+          color: "yellow",
+
+          backColor: "purple",
+
+          onhoverColor: "orange",
+
+          borderColor: "red",
+
+          showBorder: false,
+
+          showTags: true,
+
+          highlightSelected: true,
+
+          selectedColor: "yellow",
+
+          selectedBackColor: "darkorange",
+
+          data: defaultData
+
+        });
+
+  });
+
+  </script>
+
+</body>
+
+</html>
