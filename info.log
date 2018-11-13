@@ -578,3 +578,264 @@ org.xml.sax.SAXParseException: 元素类型 "img" 必须由匹配的结束标记
 [THYMELEAF]     * Prefix: "layout"
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
 2018-11-13 17:18:57.697 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [838] -| [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-11-13 17:55:57.502 |-INFO  [restartedMain] com.wndz.application.WndzApplication [48] -| Starting WndzApplication on P-V-7 with PID 393552 (D:\eclipse\6.0qc\springBootDemo\target\classes started by Administrator in D:\eclipse\6.0qc\springBootDemo)
+2018-11-13 17:55:57.503 |-INFO  [restartedMain] com.wndz.application.WndzApplication [597] -| The following profiles are active: test
+2018-11-13 17:55:57.798 |-INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] -| Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61b7ba21: startup date [Tue Nov 13 17:55:57 CST 2018]; root of context hierarchy
+2018-11-13 17:55:57.807 |-INFO  [background-preinit] org.hibernate.validator.internal.util.Version [30] -| HV000001: Hibernate Validator 5.3.5.Final
+2018-11-13 17:55:59.378 |-INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] -| Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cc03fcd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 17:55:59.932 |-INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] -| Tomcat initialized with port(s): 8080 (http)
+2018-11-13 17:55:59.943 |-INFO  [restartedMain] org.apache.catalina.core.StandardService [179] -| Starting service [Tomcat]
+2018-11-13 17:55:59.944 |-INFO  [restartedMain] org.apache.catalina.core.StandardEngine [179] -| Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-11-13 17:56:00.059 |-INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] -| Initializing Spring embedded WebApplicationContext
+2018-11-13 17:56:00.060 |-INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader [276] -| Root WebApplicationContext: initialization completed in 2262 ms
+2018-11-13 17:56:00.412 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [190] -| Mapping servlet: 'servletTest' to [/servletTest]
+2018-11-13 17:56:00.414 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [190] -| Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-13 17:56:00.418 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 17:56:00.418 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 17:56:00.418 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-13 17:56:00.419 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 17:56:01.139 |-INFO  [restartedMain] org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer [127] -| ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-11-13 17:56:01.632 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/testjson]}" onto public com.wndz.bean.Wndz com.wndz.application.HelloController.test()
+2018-11-13 17:56:01.635 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/upload]}" onto public java.lang.String com.wndz.application.HelloController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-11-13 17:56:01.636 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld5]}" onto public java.lang.String com.wndz.application.HelloController.hello5()
+2018-11-13 17:56:01.636 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld7]}" onto public java.lang.String com.wndz.application.HelloController.hello7()
+2018-11-13 17:56:01.637 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld6]}" onto public java.lang.String com.wndz.application.HelloController.hello6()
+2018-11-13 17:56:01.637 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld]}" onto public java.lang.String com.wndz.application.HelloController.hello()
+2018-11-13 17:56:01.637 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld3]}" onto public java.lang.String com.wndz.application.HelloController.hello3(java.util.Map<java.lang.String, java.lang.String>)
+2018-11-13 17:56:01.637 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld4]}" onto public java.lang.String com.wndz.application.HelloController.hello4()
+2018-11-13 17:56:01.637 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld2]}" onto public java.lang.String com.wndz.application.HelloController.hello2()
+2018-11-13 17:56:01.638 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/download]}" onto public java.lang.String com.wndz.application.HelloController.download(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-13 17:56:01.638 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/pub/{name}],methods=[GET]}" onto public com.wndz.bean.Wndz com.wndz.application.HelloController.pub(java.lang.String)
+2018-11-13 17:56:01.642 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-11-13 17:56:01.643 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-11-13 17:56:01.645 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-11-13 17:56:01.648 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-13 17:56:01.648 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-13 17:56:01.847 |-INFO  [restartedMain] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [69] -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 17:56:01.964 |-INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [165] -| Initializing ExecutorService  'defaultSockJsTaskScheduler'
+2018-11-13 17:56:01.997 |-INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping [362] -| Mapped URL path [/webSocketServer/*] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2018-11-13 17:56:02.171 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] -| Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61b7ba21: startup date [Tue Nov 13 17:55:57 CST 2018]; root of context hierarchy
+2018-11-13 17:56:02.226 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 17:56:02.227 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 17:56:02.243 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [273] -| Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-11-13 17:56:02.266 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 17:56:03.188 |-INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [58] -| LiveReload server is running on port 35729
+2018-11-13 17:56:03.230 |-INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] -| Registering beans for JMX exposure on startup
+2018-11-13 17:56:03.237 |-INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor [343] -| Starting beans in phase 2147483647
+2018-11-13 17:56:03.237 |-INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [147] -| Context refreshed
+2018-11-13 17:56:03.254 |-INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [150] -| Found 1 custom documentation plugin(s)
+2018-11-13 17:56:03.283 |-INFO  [restartedMain] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [41] -| Scanning for api listing references
+2018-11-13 17:56:03.388 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.395 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.398 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.400 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.403 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.406 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.410 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.413 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 17:56:03.539 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [179] -| Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-13 17:56:03.550 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [179] -| Starting ProtocolHandler ["http-nio-8080"]
+2018-11-13 17:56:03.558 |-INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool [179] -| Using a shared selector for servlet write/read
+2018-11-13 17:56:03.576 |-INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [201] -| Tomcat started on port(s): 8080 (http)
+2018-11-13 17:56:03.584 |-INFO  [restartedMain] com.wndz.application.WndzApplication [57] -| Started WndzApplication in 6.366 seconds (JVM running for 6.775)
+2018-11-13 17:56:05.832 |-INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] -| Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-13 17:56:05.832 |-INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet [489] -| FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-13 17:56:05.870 |-INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet [508] -| FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2018-11-13 17:56:05.959 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [825] -| [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-11-13 17:56:06.038 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.templateresolver.AbstractTemplateResolver [99] -| [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-11-13 17:56:06.038 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.templateresolver.AbstractTemplateResolver [110] -| [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-11-13 17:56:06.039 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.messageresolver.AbstractMessageResolver [72] -| [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-11-13 17:56:06.040 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.messageresolver.AbstractMessageResolver [78] -| [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-11-13 17:56:06.045 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine.CONFIG [123] -| [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-11-13 17:56:06.045 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [838] -| [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-11-13 18:06:55.597 |-INFO  [restartedMain] com.wndz.application.WndzApplication [48] -| Starting WndzApplication on P-V-7 with PID 393428 (D:\eclipse\6.0qc\springBootDemo\target\classes started by Administrator in D:\eclipse\6.0qc\springBootDemo)
+2018-11-13 18:06:55.598 |-INFO  [restartedMain] com.wndz.application.WndzApplication [597] -| The following profiles are active: test
+2018-11-13 18:06:55.822 |-INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] -| Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61b7ba21: startup date [Tue Nov 13 18:06:55 CST 2018]; root of context hierarchy
+2018-11-13 18:06:55.874 |-INFO  [background-preinit] org.hibernate.validator.internal.util.Version [30] -| HV000001: Hibernate Validator 5.3.5.Final
+2018-11-13 18:06:57.318 |-INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] -| Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$22d75d2f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 18:06:58.004 |-INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] -| Tomcat initialized with port(s): 8080 (http)
+2018-11-13 18:06:58.017 |-INFO  [restartedMain] org.apache.catalina.core.StandardService [179] -| Starting service [Tomcat]
+2018-11-13 18:06:58.018 |-INFO  [restartedMain] org.apache.catalina.core.StandardEngine [179] -| Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-11-13 18:06:58.122 |-INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] -| Initializing Spring embedded WebApplicationContext
+2018-11-13 18:06:58.122 |-INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader [276] -| Root WebApplicationContext: initialization completed in 2300 ms
+2018-11-13 18:06:58.293 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [190] -| Mapping servlet: 'servletTest' to [/servletTest]
+2018-11-13 18:06:58.295 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [190] -| Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-13 18:06:58.298 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 18:06:58.298 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 18:06:58.299 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-13 18:06:58.299 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 18:06:58.942 |-INFO  [restartedMain] org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer [127] -| ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-11-13 18:06:59.358 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/testjson]}" onto public com.wndz.bean.Wndz com.wndz.application.HelloController.test()
+2018-11-13 18:06:59.360 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld4]}" onto public java.lang.String com.wndz.application.HelloController.hello4()
+2018-11-13 18:06:59.360 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/upload]}" onto public java.lang.String com.wndz.application.HelloController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-11-13 18:06:59.360 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld5]}" onto public java.lang.String com.wndz.application.HelloController.hello5()
+2018-11-13 18:06:59.360 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld6]}" onto public java.lang.String com.wndz.application.HelloController.hello6()
+2018-11-13 18:06:59.361 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld]}" onto public java.lang.String com.wndz.application.HelloController.hello()
+2018-11-13 18:06:59.361 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld2]}" onto public java.lang.String com.wndz.application.HelloController.hello2()
+2018-11-13 18:06:59.361 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld3]}" onto public java.lang.String com.wndz.application.HelloController.hello3(java.util.Map<java.lang.String, java.lang.String>)
+2018-11-13 18:06:59.361 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/pub/{name}],methods=[GET]}" onto public com.wndz.bean.Wndz com.wndz.application.HelloController.pub(java.lang.String)
+2018-11-13 18:06:59.361 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/download]}" onto public java.lang.String com.wndz.application.HelloController.download(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-13 18:06:59.362 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld7]}" onto public java.lang.String com.wndz.application.HelloController.hello7()
+2018-11-13 18:06:59.365 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-11-13 18:06:59.366 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-11-13 18:06:59.367 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-11-13 18:06:59.370 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-13 18:06:59.370 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-13 18:06:59.527 |-INFO  [restartedMain] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [69] -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 18:06:59.615 |-INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [165] -| Initializing ExecutorService  'defaultSockJsTaskScheduler'
+2018-11-13 18:06:59.642 |-INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping [362] -| Mapped URL path [/webSocketServer/*] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2018-11-13 18:06:59.801 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] -| Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61b7ba21: startup date [Tue Nov 13 18:06:55 CST 2018]; root of context hierarchy
+2018-11-13 18:06:59.847 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 18:06:59.847 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 18:06:59.860 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [273] -| Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-11-13 18:06:59.879 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 18:07:00.434 |-INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [58] -| LiveReload server is running on port 35729
+2018-11-13 18:07:00.476 |-INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] -| Registering beans for JMX exposure on startup
+2018-11-13 18:07:00.484 |-INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor [343] -| Starting beans in phase 2147483647
+2018-11-13 18:07:00.484 |-INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [147] -| Context refreshed
+2018-11-13 18:07:00.501 |-INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [150] -| Found 1 custom documentation plugin(s)
+2018-11-13 18:07:00.529 |-INFO  [restartedMain] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [41] -| Scanning for api listing references
+2018-11-13 18:07:00.631 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.637 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.640 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.643 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.646 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.648 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.651 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.654 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:00.784 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [179] -| Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-13 18:07:00.794 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [179] -| Starting ProtocolHandler ["http-nio-8080"]
+2018-11-13 18:07:00.803 |-INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool [179] -| Using a shared selector for servlet write/read
+2018-11-13 18:07:00.819 |-INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [201] -| Tomcat started on port(s): 8080 (http)
+2018-11-13 18:07:00.824 |-INFO  [restartedMain] com.wndz.application.WndzApplication [57] -| Started WndzApplication in 5.503 seconds (JVM running for 5.858)
+2018-11-13 18:07:05.899 |-INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] -| Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-13 18:07:05.899 |-INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet [489] -| FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-13 18:07:05.931 |-INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet [508] -| FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2018-11-13 18:07:05.990 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [825] -| [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-11-13 18:07:06.023 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.templateresolver.AbstractTemplateResolver [99] -| [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-11-13 18:07:06.023 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.templateresolver.AbstractTemplateResolver [110] -| [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-11-13 18:07:06.024 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.messageresolver.AbstractMessageResolver [72] -| [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-11-13 18:07:06.024 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.messageresolver.AbstractMessageResolver [78] -| [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-11-13 18:07:06.027 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine.CONFIG [123] -| [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-11-13 18:07:06.027 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [838] -| [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2018-11-13 18:07:31.462 |-INFO  [restartedMain] com.wndz.application.WndzApplication [48] -| Starting WndzApplication on P-V-7 with PID 393200 (D:\eclipse\6.0qc\springBootDemo\target\classes started by Administrator in D:\eclipse\6.0qc\springBootDemo)
+2018-11-13 18:07:31.463 |-INFO  [restartedMain] com.wndz.application.WndzApplication [597] -| The following profiles are active: test
+2018-11-13 18:07:31.828 |-INFO  [restartedMain] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext [583] -| Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61b7ba21: startup date [Tue Nov 13 18:07:31 CST 2018]; root of context hierarchy
+2018-11-13 18:07:31.842 |-INFO  [background-preinit] org.hibernate.validator.internal.util.Version [30] -| HV000001: Hibernate Validator 5.3.5.Final
+2018-11-13 18:07:33.306 |-INFO  [restartedMain] org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [325] -| Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$fbec6aac] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-13 18:07:33.880 |-INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [89] -| Tomcat initialized with port(s): 8080 (http)
+2018-11-13 18:07:33.893 |-INFO  [restartedMain] org.apache.catalina.core.StandardService [179] -| Starting service [Tomcat]
+2018-11-13 18:07:33.894 |-INFO  [restartedMain] org.apache.catalina.core.StandardEngine [179] -| Starting Servlet Engine: Apache Tomcat/8.5.20
+2018-11-13 18:07:34.012 |-INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] -| Initializing Spring embedded WebApplicationContext
+2018-11-13 18:07:34.012 |-INFO  [localhost-startStop-1] org.springframework.web.context.ContextLoader [276] -| Root WebApplicationContext: initialization completed in 2186 ms
+2018-11-13 18:07:34.232 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [190] -| Mapping servlet: 'servletTest' to [/servletTest]
+2018-11-13 18:07:34.234 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean [190] -| Mapping servlet: 'dispatcherServlet' to [/]
+2018-11-13 18:07:34.237 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-13 18:07:34.238 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-13 18:07:34.238 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-13 18:07:34.238 |-INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean [258] -| Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-13 18:07:34.886 |-INFO  [restartedMain] org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer [127] -| ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-11-13 18:07:35.323 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/testjson]}" onto public com.wndz.bean.Wndz com.wndz.application.HelloController.test()
+2018-11-13 18:07:35.325 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld5]}" onto public java.lang.String com.wndz.application.HelloController.hello5()
+2018-11-13 18:07:35.326 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/pub/{name}],methods=[GET]}" onto public com.wndz.bean.Wndz com.wndz.application.HelloController.pub(java.lang.String)
+2018-11-13 18:07:35.327 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld4]}" onto public java.lang.String com.wndz.application.HelloController.hello4()
+2018-11-13 18:07:35.328 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/upload]}" onto public java.lang.String com.wndz.application.HelloController.upload(org.springframework.web.multipart.MultipartFile,javax.servlet.http.HttpServletRequest)
+2018-11-13 18:07:35.328 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/download]}" onto public java.lang.String com.wndz.application.HelloController.download(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-13 18:07:35.328 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld]}" onto public java.lang.String com.wndz.application.HelloController.hello()
+2018-11-13 18:07:35.328 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld3]}" onto public java.lang.String com.wndz.application.HelloController.hello3(java.util.Map<java.lang.String, java.lang.String>)
+2018-11-13 18:07:35.329 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld7]}" onto public java.lang.String com.wndz.application.HelloController.hello7()
+2018-11-13 18:07:35.329 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld6]}" onto public java.lang.String com.wndz.application.HelloController.hello6()
+2018-11-13 18:07:35.329 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/helloworld2]}" onto public java.lang.String com.wndz.application.HelloController.hello2()
+2018-11-13 18:07:35.332 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-11-13 18:07:35.333 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-11-13 18:07:35.334 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-11-13 18:07:35.336 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-13 18:07:35.337 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping [543] -| Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-13 18:07:35.496 |-INFO  [restartedMain] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [69] -| Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-11-13 18:07:35.586 |-INFO  [restartedMain] org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler [165] -| Initializing ExecutorService  'defaultSockJsTaskScheduler'
+2018-11-13 18:07:35.617 |-INFO  [restartedMain] org.springframework.web.socket.server.support.WebSocketHandlerMapping [362] -| Mapped URL path [/webSocketServer/*] onto handler of type [class org.springframework.web.socket.server.support.WebSocketHttpRequestHandler]
+2018-11-13 18:07:35.776 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter [534] -| Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@61b7ba21: startup date [Tue Nov 13 18:07:31 CST 2018]; root of context hierarchy
+2018-11-13 18:07:35.831 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 18:07:35.832 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 18:07:35.848 |-INFO  [restartedMain] org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver [273] -| Detected @ExceptionHandler methods in globalDefaultExceptionHandler
+2018-11-13 18:07:35.870 |-INFO  [restartedMain] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping [362] -| Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-13 18:07:36.520 |-INFO  [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [58] -| LiveReload server is running on port 35729
+2018-11-13 18:07:36.562 |-INFO  [restartedMain] org.springframework.jmx.export.annotation.AnnotationMBeanExporter [431] -| Registering beans for JMX exposure on startup
+2018-11-13 18:07:36.570 |-INFO  [restartedMain] org.springframework.context.support.DefaultLifecycleProcessor [343] -| Starting beans in phase 2147483647
+2018-11-13 18:07:36.570 |-INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [147] -| Context refreshed
+2018-11-13 18:07:36.588 |-INFO  [restartedMain] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [150] -| Found 1 custom documentation plugin(s)
+2018-11-13 18:07:36.616 |-INFO  [restartedMain] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [41] -| Scanning for api listing references
+2018-11-13 18:07:36.719 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.726 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.729 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.732 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.735 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.738 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.741 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.745 |-WARN  [restartedMain] springfox.documentation.spring.web.readers.parameter.ParameterDataTypeReader [86] -| Trying to infer dataType java.util.Map<java.lang.String,java.lang.String>
+2018-11-13 18:07:36.891 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [179] -| Initializing ProtocolHandler ["http-nio-8080"]
+2018-11-13 18:07:36.901 |-INFO  [restartedMain] org.apache.coyote.http11.Http11NioProtocol [179] -| Starting ProtocolHandler ["http-nio-8080"]
+2018-11-13 18:07:36.910 |-INFO  [restartedMain] org.apache.tomcat.util.net.NioSelectorPool [179] -| Using a shared selector for servlet write/read
+2018-11-13 18:07:36.929 |-INFO  [restartedMain] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer [201] -| Tomcat started on port(s): 8080 (http)
+2018-11-13 18:07:36.935 |-INFO  [restartedMain] com.wndz.application.WndzApplication [57] -| Started WndzApplication in 5.766 seconds (JVM running for 6.174)
+2018-11-13 18:07:37.793 |-INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [179] -| Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-11-13 18:07:37.793 |-INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet [489] -| FrameworkServlet 'dispatcherServlet': initialization started
+2018-11-13 18:07:37.819 |-INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet [508] -| FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-11-13 18:07:37.877 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [825] -| [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2018-11-13 18:07:37.909 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.templateresolver.AbstractTemplateResolver [99] -| [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2018-11-13 18:07:37.909 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.templateresolver.AbstractTemplateResolver [110] -| [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2018-11-13 18:07:37.909 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.messageresolver.AbstractMessageResolver [72] -| [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2018-11-13 18:07:37.909 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.messageresolver.AbstractMessageResolver [78] -| [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2018-11-13 18:07:37.913 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine.CONFIG [123] -| [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2018-11-13 18:07:37.913 |-INFO  [http-nio-8080-exec-1] org.thymeleaf.TemplateEngine [838] -| [THYMELEAF] TEMPLATE ENGINE INITIALIZED
